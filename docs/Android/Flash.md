@@ -2,7 +2,7 @@
 
 - Install requirements on Arch Linux
 
-	sudo pacman -S android-tools
+		sudo pacman -S android-tools
 
 - Download appropriate image
 - Use relevant key combination and boot to fastboot
