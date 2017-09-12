@@ -23,7 +23,7 @@
 
 ## Merge past commit together
 
-		git rebase -i THE_LATEST_COMMIT
+	git rebase -i THE_LATEST_COMMIT
 
 ## Global configuration
 
