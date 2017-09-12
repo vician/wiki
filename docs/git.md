@@ -27,7 +27,7 @@
 
 ## Global configuration
 
-File: ~/.gitconfig
+File: `~/.gitconfig`
 
 	[user]
 		email = YOUREMAIL
