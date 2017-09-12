@@ -24,3 +24,36 @@
 ## Merge past commit together
 
 		git rebase -i THE_LATEST_COMMIT
+
+## Global configuration
+
+File: ~/.gitconfig
+
+	[user]
+		email = YOUREMAIL
+		name = YOURNAME
+		signingkey = YOURGPGKEY
+	[commit]
+		gpgsign = True
+	[tag]
+		gpgsign = True
+		forceSignAnnotated = True
+	[push]
+		default = current
+	[color]
+		ui = true
+	[alias]
+		st = status
+		ci = commint
+		co = checkout
+		br = branch
+		ll = log --oneline --graph --all --decorate
+		wdiff = diff --word-diff
+		merge-all = !~/.developer/git-merge-all.sh
+		fix = "!git commit --fixup=HEAD"
+		ri = "rebase -i --autosquash"
+
+	[diff "decrypt"]
+		textconv = ansible-vault view
+	[core]
+		excludesfile = ~/.gitignore
