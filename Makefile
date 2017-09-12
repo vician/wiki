@@ -18,5 +18,5 @@ clean:
 
 restart: stop clean start
 
-deploy: build
-	mkdocs gh-deploy
+# deploy: build
+# 	mkdocs gh-deploy
