@@ -21,6 +21,6 @@
 		git rebase -i FIRST_NON_FIXUP_COMMIT_OR_PARENT –autosquash
 		git push -f
 
-##Merge past commit together
+## Merge past commit together
 
 		git rebase -i THE_LATEST_COMMIT
