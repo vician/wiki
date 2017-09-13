@@ -1,0 +1,5 @@
+- insync
+- keepassxc
+- spotify
+- standardnotes
+- pidgin-windowmerge
