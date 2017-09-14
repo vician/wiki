@@ -40,3 +40,4 @@
          sudo add-apt-repository ppa:haecker-felix/gradio-daily
          sudo apt update ; sudo apt install gradio
          
+- [pulse audio equalizer](PulseAudio Equalizer/)
