@@ -35,6 +35,8 @@
 
          sudo apt install calibre
 
-- [gradio](https://github.com/haecker-felix/gradio)
+- [gradio](https://github.com/haecker-felix/gradio/wiki/Install-Gradio)
 
-         sudo snap install gradio
+         sudo add-apt-repository ppa:haecker-felix/gradio-daily
+         sudo apt update ; sudo apt install gradio
+         
