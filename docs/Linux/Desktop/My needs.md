@@ -41,3 +41,5 @@
          sudo apt update ; sudo apt install gradio
          
 - [pulse audio equalizer](PulseAudio Equalizer/)
+- gajim
+- [telegram](https://telegram.org/dl/desktop/linux)
