@@ -1,6 +1,10 @@
 - Install requiremetns on Arch Linux
 
 		sudo pacman -S pulseaudio-equalizer
+		
+- Install requireents on Ubuntu
+
+		sudo apt install pulseaudio-equalizer pavucontrol
 
 - Temporary load modules
 
