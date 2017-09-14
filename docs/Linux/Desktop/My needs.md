@@ -30,6 +30,9 @@
          sudo pip3 install powerline-status
          echo "source /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
          sudo apt install fonts-powerline
+         mkdir -p ~/.config/powerline
+         /usr/local/lib/python3.5/dist-packages/powerline/config_files/config.json ~/.config/powerline/config.json
+         # replace shell -> theme: default to default_leftonly
 
 - calibre
 
