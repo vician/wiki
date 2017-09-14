@@ -1,6 +1,6 @@
 - terminal utilities
 
-         sudo apt install mc htop vim
+         sudo apt install mc htop vim git
 
 - [insync](https://www.insynchq.com/downloads#repositories)
 
@@ -23,3 +23,9 @@
          # Download from the link 
          chmod +x ./standard-notes-?.?.?-x86_64.AppImage
          ./standard-notes-?.?.?-x86_64.AppImage
+- [powerline](https://powerline.readthedocs.io/en/latest/installation.html)
+
+         sudo apt install python3-pip
+         sudo pip3 install powerline-status
+         echo "source /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
+         sudo apt install fonts-powerline
