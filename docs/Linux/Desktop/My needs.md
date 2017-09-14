@@ -31,3 +31,4 @@
          echo "source /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
          sudo apt install fonts-powerline
 
+- calibre
