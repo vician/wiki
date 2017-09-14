@@ -32,3 +32,5 @@
          sudo apt install fonts-powerline
 
 - calibre
+
+         sudo apt install calibre
