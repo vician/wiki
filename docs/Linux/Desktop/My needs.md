@@ -34,3 +34,7 @@
 - calibre
 
          sudo apt install calibre
+
+- [gradio](https://github.com/haecker-felix/gradio)
+
+         sudo snap install gradio
