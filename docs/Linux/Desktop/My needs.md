@@ -45,4 +45,11 @@
          
 - [pulse audio equalizer](PulseAudio Equalizer/)
 - gajim
+
+         sudo apt remove gajim
+         echo deb ftp://ftp.gajim.org/debian unstable main  | sudo tee /etc/apt/sources.list.d/gajim.list
+         wget "ftp://ftp.gajim.org/debian/dists/unstable/main/binary-amd64/gajim-dev-keyring_2016.03.29_all.deb"
+         sudo dpkg -i gajim-dev-keyring_2016.03.29_all.deb
+         sudo apt update ; sudo apt install gajim-dev-keyring ; sudo apt install gajim-nightly
+
 - [telegram](https://telegram.org/dl/desktop/linux)
