@@ -1,6 +1,6 @@
 - terminal utilities
 
-         sudo apt install mc htop vim git tree
+         sudo apt install mc htop vim git tree whois
 
 - [insync](https://www.insynchq.com/downloads#repositories)
 
