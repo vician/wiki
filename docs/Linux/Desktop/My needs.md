@@ -53,3 +53,6 @@
          sudo apt update ; sudo apt install gajim-dev-keyring ; sudo apt install gajim-nightly
 
 - [telegram](https://telegram.org/dl/desktop/linux)
+- gnome clocks
+
+         sudo apt install gnome-clocks
