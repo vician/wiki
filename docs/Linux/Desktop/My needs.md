@@ -56,3 +56,7 @@
 - gnome clocks
 
          sudo apt install gnome-clocks
+         
+- [atom](https://atom.io)
+
+         sudo snap install --classic atom
