@@ -12,3 +12,31 @@ header / {
   X-Frame-Options "DENY"
 }
 ```
+## Enable PHP
+```
+fastcgi / /var/run/php/php7.0-fpm.sock {
+  index index.php
+}
+```
+
+## Build projects
+
+### Pelican
+```
+root /var/www/pelican/output/
+git {
+  repo example.com/pelican.git
+  path /var/www/pelican
+  then pelican content/
+}
+```
+
+### Mkdocs
+```
+root /var/www/pelican/site/
+git {
+  repo example.com/pelican.git
+  path /var/www/pelican
+  then mkdocs build
+}
+```
