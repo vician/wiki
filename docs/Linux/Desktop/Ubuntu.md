@@ -5,6 +5,12 @@ _What I need on my Ubuntu desktop._
          sudo add-apt-repository ppa:ubuntubudgie/backports
          sudo apt update ; sudo apt upgrade
          
+- Gnome tweak tool
+
+         sudo apt install gnome-tweak-tool
+         # Check global dark theme
+         # Reduce amount of Workspace
+         
 - terminal utilities
 
          sudo apt install mc htop vim git tree whois
