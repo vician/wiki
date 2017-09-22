@@ -1,5 +1,10 @@
 _What I need on my Ubuntu desktop._
 
+- [Newest budgie](https://launchpad.net/~ubuntubudgie/+archive/ubuntu/backports)
+         
+         sudo add-apt-repository ppa:ubuntubudgie/backports
+         sudo apt update ; sudo apt upgrade
+         
 - terminal utilities
 
          sudo apt install mc htop vim git tree whois
