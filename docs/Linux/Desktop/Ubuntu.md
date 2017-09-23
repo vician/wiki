@@ -57,13 +57,14 @@ _What I need on my Ubuntu desktop._
          sudo apt update ; sudo apt install gradio
          
 - [pulse audio equalizer](PulseAudio Equalizer/)
-- gajim
+- pidgin
 
-         sudo apt remove gajim
-         echo deb ftp://ftp.gajim.org/debian unstable main  | sudo tee /etc/apt/sources.list.d/gajim.list
-         wget "ftp://ftp.gajim.org/debian/dists/unstable/main/binary-amd64/gajim-dev-keyring_2016.03.29_all.deb"
-         sudo dpkg -i gajim-dev-keyring_2016.03.29_all.deb
-         sudo apt update ; sudo apt install gajim-dev-keyring ; sudo apt install gajim-nightly
+         sudo apt install pidgin pidgin-plugin-pack
+
+- thunderbird
+
+         sudo apt install thunderbird enigmail
+         # check for new message in all folders: server.default.check_all_folders_for_new → true
 
 - [telegram](https://telegram.org/dl/desktop/linux)
 - gnome clocks
