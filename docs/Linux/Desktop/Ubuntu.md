@@ -63,7 +63,7 @@ _What I need on my Ubuntu desktop._
 
 - thunderbird
 
-         sudo apt install thunderbird enigmail
+         sudo apt install thunderbird enigmail thunderbird-gnome-support
          # check for new message in all folders: server.default.check_all_folders_for_new → true
 
 - [telegram](https://telegram.org/dl/desktop/linux)
