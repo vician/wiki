@@ -2,7 +2,7 @@
 
 - Install
 
-		pip install mkdocs-material
+		pip3 install mkdocs mkdocs-material
 
 - Enable this theme in `mkdocs.yml`
 
