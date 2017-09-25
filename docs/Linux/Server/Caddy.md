@@ -12,6 +12,13 @@ header / {
   X-Frame-Options "DENY"
 }
 ```
+## Redirect to HTTPS
+```
+redir 301 {
+	if {>X-Forwarded-Proto} is http
+	/  https://{host}{uri}
+}
+```
 ## Enable PHP
 ```
 fastcgi / /var/run/php/php7.0-fpm.sock {
