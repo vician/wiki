@@ -23,7 +23,7 @@ _What I need on my Ubuntu desktop._
 		echo deb http://repository.spotify.com testing non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 		sudo apt update ; sudo apt install spotify-client
 		
-		rdnotes](https://standardnotes.org/getting-started?downloaded=linux)
+- [Standard Notes](https://standardnotes.org/getting-started?downloaded=linux)
 		
 		# Download from the link 
 		chmod +x ~/Downloads/standard-notes-?.?.?-x86_64.AppImage
