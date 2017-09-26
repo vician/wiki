@@ -1,6 +1,10 @@
 _What I need on my Ubuntu desktop._
 
-- See specific for [Ubuntu Budgie](./Ubuntu Budgie/)
+- terminal utilities
+
+		sudo apt install git mc htop vim git tree whois python3-pip
+
+- See specifics for [Ubuntu Budgie](./Ubuntu Budgie/)
 
 - terminal
 
@@ -8,11 +12,6 @@ _What I need on my Ubuntu desktop._
 		sudo apt update ; sudo apt upgrade ; sudo apt dist-upgrade
 		gsettings set org.gnome.desktop.default-applications.terminal exec 'tilix'
 		sudo update-alternatives --config x-terminal-emulator
-
-
-- terminal utilities
-
-		sudo apt install mc htop vim git tree whois python3-pip
 
 - [insync](https://www.insynchq.com/downloads#repositories)
 
@@ -37,15 +36,14 @@ _What I need on my Ubuntu desktop._
 		chmod +x ~/Downloads/standard-notes-?.?.?-x86_64.AppImage
 		~/Downloads/standard-notes-?.?.?-x86_64.AppImage
 
-- [powerline](https://powerline.readthedocs.io/en/latest/installation.html)
+- bash configuration
 
-		sudo apt install python3-pip
-		sudo pip3 install powerline-status
-		echo -e "powerline-daemon -q\nsource /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
-		sudo apt install fonts-powerline
-		mkdir -p ~/.config/powerline
-		cp -r /usr/local/lib/python3.5/dist-packages/powerline/config_files/ ~/.config/powerline/
-		# replace shell -> theme: default to default_leftonly
+		export GIT_PS1_SHOWDIRTYSTATE=1
+		export GIT_PS1_SHOWSTASHSTATE=1
+		export GIT_PS1_SHOWUNTRACKEDFILES=1
+		export GIT_PS1_SHOWUPSTREAM="auto verbose"
+		PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ '
+
 
 - calibre
 
