@@ -65,7 +65,7 @@ _What I need on my Ubuntu desktop._
 - [telegram](https://telegram.org/dl/desktop/linux)
 - GUI programs
 
-		sudo apt install gnome-clocks arandr
+		sudo apt install gnome-clocks arandr seahorse
 
 - [atom](https://atom.io)
 
