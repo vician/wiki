@@ -2,6 +2,14 @@ _What I need on my Ubuntu desktop._
 
 - See specific for [Ubuntu Budgie](./Ubuntu Budgie/)
 
+- terminal
+
+		sudo add-apt-repository ppa:webupd8team/terminix
+		sudo apt update ; sudo apt upgrade ; sudo apt dist-upgrade
+		gsettings set org.gnome.desktop.default-applications.terminal exec 'tilix'
+		sudo update-alternatives --config x-terminal-emulator
+
+
 - terminal utilities
 
 		sudo apt install mc htop vim git tree whois python3-pip
