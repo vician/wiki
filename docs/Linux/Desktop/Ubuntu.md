@@ -20,7 +20,7 @@ _What I need on my Ubuntu desktop._
 		echo "deb http://apt.insynchq.com/$(lsb_release -si | tr '[:upper:]' '[:lower:]') $(lsb_release -sc) non-free contrib" | sudo tee /etc/apt/sources.list.d/insync.list
 		sudo apt update ; sudo apt install insync
 
-- [keepassxc](https://keepassxc.org/download#linux) and [qtqr](https://launchpad.net/qr-tools)
+- [keepassxc](https://keepassxc.org/download#linux) and [qtqr](https://launchpad.net/qr-tools) ([bug with lock screen](https://github.com/keepassxreboot/keepassxc/issues/687))
 
 		sudo snap install keepassxc
 		sudo apt install qtqr
