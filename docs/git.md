@@ -1,3 +1,13 @@
+## Commit during dettached head
+
+_You commit your work and then you discovered that git head is dettached (typically because of commiting in git submodule)._
+
+```
+git branch tempwork
+git checkout master
+git merge tempwork
+```
+
 ## Remove branches
 
 - Local branch: `git branch -d the_local_branch`
