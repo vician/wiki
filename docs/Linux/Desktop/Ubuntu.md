@@ -77,4 +77,5 @@ _What I need on my Ubuntu desktop._
 
 - [atom](https://atom.io)
 
-		sudo snap install --classic atom
+		sudo add-apt-repository ppa:webupd8team/atom
+		sudo apt update ; sudo apt install atom

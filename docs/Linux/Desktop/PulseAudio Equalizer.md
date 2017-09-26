@@ -18,3 +18,5 @@
 			### Load the integrated PulseAudio equalizer and D-Bus module
 			load-module module-equalizer-sink
 			load-module module-dbus-protocol
+
+_Good description for [Ubuntu 14.04 on webupd8.org](http://www.webupd8.org/2013/03/install-pulseaudio-with-built-in-system.html)_
