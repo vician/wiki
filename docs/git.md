@@ -57,3 +57,12 @@ File: `~/.gitconfig`
 		textconv = ansible-vault view
 	[core]
 		excludesfile = ~/.gitignore
+
+### Global gitignore
+
+```
+.*.swp
+.*.swo
+.*~
+```
+
