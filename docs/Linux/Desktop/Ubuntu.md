@@ -71,7 +71,7 @@ _What I need on my Ubuntu desktop._
 - [telegram](https://telegram.org/dl/desktop/linux)
 - GUI programs
 
-		sudo apt install gnome-clocks arandr seahorse geany geany-plugins
+		sudo apt install gnome-clocks arandr seahorse geany geany-plugins gitg
 
 - [atom](https://atom.io)
 
