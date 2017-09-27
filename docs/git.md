@@ -27,8 +27,8 @@ git merge tempwork
 - Do git commit as usual or …
 - Remember which commit brings the thing which should be changed
 
-		git commit –fixup=COMMIT
-		git rebase -i FIRST_NON_FIXUP_COMMIT_OR_PARENT –autosquash
+		git commit --fixup=COMMIT
+		git rebase -i FIRST_NON_FIXUP_COMMIT_OR_PARENT --autosquash
 		git push -f
 
 ## Merge past commit together
