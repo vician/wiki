@@ -77,3 +77,8 @@ _What I need on my Ubuntu desktop._
 
 		sudo add-apt-repository ppa:webupd8team/atom
 		sudo apt update ; sudo apt install atom
+
+- install firefox, remove flash ([check if flash is installed](http://isflashinstalled.com/))
+
+		sudo apt install firefox
+		sudo apt remove flashplugin-installer
