@@ -34,14 +34,21 @@ I personally use:
 - Appearance -> Enable animations -> Disabled
 - Workspaces -> Number of Workspaces -> `2`
 
+
 ## Additional applets
 
-## Simple weather indicator
+### Caffeine
+
+	sudo apt install caffeine
+
+### Simple weather indicator
 
 	sudo add-apt-repository ppa:kasra-mp/ubuntu-indicator-weather
 	sudo apt update && sudo apt install indicator-weather
 
-### Touchpad indicator (not works)
+Do not forgot to put it into startup applications.
+
+## National Geographic Wallpaper
 
 	sudo add-apt-repository ppa:atareao/atareao
-	sudo apt update && sudo apt install touchpad-indicator
+	sudo apt update ; sudo atp install national-geographic-wallpaper
