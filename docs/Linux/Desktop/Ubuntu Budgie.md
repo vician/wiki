@@ -1,4 +1,4 @@
-## Ubuntu Budgie 17.04 
+## Ubuntu Budgie 17.04
 
 ###  BIOS - fix gray screen after dell logo with no grub menu
 
@@ -36,7 +36,12 @@ I personally use:
 
 ## Additional applets
 
-### Touchpad indicator
+## Simple weather indicator
+
+	sudo add-apt-repository ppa:kasra-mp/ubuntu-indicator-weather
+	sudo apt update && sudo apt install indicator-weather
+
+### Touchpad indicator (not works)
 
 	sudo add-apt-repository ppa:atareao/atareao
 	sudo apt update && sudo apt install touchpad-indicator
