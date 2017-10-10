@@ -33,3 +33,10 @@ I personally use:
 - Appearance -> Global Dark Theme -> Enabled
 - Appearance -> Enable animations -> Disabled
 - Workspaces -> Number of Workspaces -> `2`
+
+## Additional applets
+
+### Touchpad indicator
+
+	sudo add-apt-repository ppa:atareao/atareao
+	sudo apt update && sudo apt install touchpad-indicator
