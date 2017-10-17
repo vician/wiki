@@ -9,3 +9,7 @@
 	- name: Create list of dictionaris
 	  set_fact:
 		list: "{{ creating_list_items.results | map(attribute='ansible_facts.list_items') | list }}"
+
+## Add all hosts to known_hosts
+
+	grep -v "^\[\|^#" hosts | { while read X; do ssh "$X" exit; done }
