@@ -2,7 +2,7 @@ _What I need on my Ubuntu desktop._
 
 - terminal utilities
 
-		sudo apt install git mc htop vim git tree whois python3-pip
+		sudo apt install git mc htop vim git tree whois python3-pip acpi
 
 - See specifics for [Ubuntu Budgie](./Ubuntu Budgie/)
 
