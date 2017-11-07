@@ -22,3 +22,7 @@
 ## Install USB gateway
 
 See [https://gitlab.labs.nic.cz/mvician/bigclown-gateway](https://gitlab.labs.nic.cz/mvician/bigclown-gateway)
+
+## Aqicn - get coordinates
+
+	wget -qO- "https://api.waqi.info/search/?token=YOUR_SECRET_API_KEY&keyword=Plzen" | json_pp
