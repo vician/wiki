@@ -5,6 +5,9 @@
 		ssh -D 8080 -N sshusername@sshserver
 
 - Configure your browser to socket proxy on `localhost:8080`
+- Or run chromium via
+
+	chromium-browser --temp-profile --proxy-server="socks5://127.0.0.1:8080"
 
 ## Reverse tunnel
 
