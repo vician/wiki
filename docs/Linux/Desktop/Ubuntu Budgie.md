@@ -1,3 +1,41 @@
+## Budgie panel
+
+### Top Panel
+
+- Left:
+	- Budgie Menu
+	- Spacer
+	- Global Menu: Show menu from windows
+- Center:
+	- Calendar
+	- Notifications
+	- ShowTime: Desktop time & date
+- Right:
+	- Lock Keys Indicator
+	- AppIndicator Applet
+	- Keyboard Layout Indicator
+	- System Tray
+	- Status Indicator
+	- Separator
+	- User Indicator
+	- Raven Sidebar Control
+
+### Bottom Panel
+
+- Left:
+	- Night Light
+	- System Monitor: Panel System Monitor
+- Center:
+	- Show Desktop Button
+	- Icon Task List
+- End:
+	- Workspace Overview: Workspaces and windows overview
+	- Worspace Switcher
+
+#### System Monitor indicator
+
+	c: {cpu} {cputemp} m: {mem} s: {swap} /:{fs///} n: {upordown} {net}
+
 ## Ubuntu Budgie 17.04
 
 ###  BIOS - fix gray screen after dell logo with no grub menu

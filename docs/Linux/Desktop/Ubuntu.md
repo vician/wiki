@@ -2,14 +2,14 @@ _What I need on my Ubuntu desktop._
 
 - terminal utilities
 
-		sudo apt install git mc htop vim git tree whois python3-pip
+		sudo apt install git mc htop vim git tree whois python3-pip acpi
 
 - See specifics for [Ubuntu Budgie](./Ubuntu Budgie/)
 
 - terminal
 
 		sudo add-apt-repository ppa:webupd8team/terminix
-		sudo apt update ; sudo apt upgrade ; sudo apt dist-upgrade
+		sudo apt update ; sudo apt upgrade ; sudo apt dist-upgrade; sudo apt install tilix
 		gsettings set org.gnome.desktop.default-applications.terminal exec 'tilix'
 		sudo update-alternatives --config x-terminal-emulator
 
