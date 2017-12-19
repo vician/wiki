@@ -25,19 +25,19 @@
 
 - Show
 
-		gpg -K –fingerprint
+		gpg -K --fingerprint
 
 - Refresh
 
-		gpg –refresh-keys
+		gpg --refresh-keys
 
 - Sign
 
-		gpg –ask-cert-level –sign-key 00AA11BB22CC33DD
+		gpg --ask-cert-level --sign-key 00AA11BB22CC33DD
 
 - Send the sign
 
-		gpg –send-keys 00AA11BB22CC33DD
+		gpg --send-keys 00AA11BB22CC33DD
 
 ## Recv all keys I already signed
 
