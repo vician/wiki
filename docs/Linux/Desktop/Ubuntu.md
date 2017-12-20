@@ -83,6 +83,13 @@ _What I need on my Ubuntu desktop._
 		sudo apt install firefox
 		sudo apt remove flashplugin-installer
 
+- enable u2f (yubikey, etc.)
+	- open `about:config`
+	- search for webauth
+	- enable (value=True) these two:
+		- `security.webauth.u2`
+		- `security.webauth.webauthn_enable_usbtoken`
+
 - nextcloud client
 
 		sudo add-apt-repository ppa:nextcloud-devs/client
