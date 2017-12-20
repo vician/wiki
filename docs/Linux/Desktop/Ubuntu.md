@@ -71,7 +71,7 @@ _What I need on my Ubuntu desktop._
 - [telegram](https://telegram.org/dl/desktop/linux)
 - GUI programs
 
-		sudo apt install gnome-clocks arandr seahorse geany geany-plugins gitg
+		sudo apt install gnome-clocks arandr seahorse geany geany-plugins gitg redshift-gtk
 
 - [atom](https://atom.io)
 
@@ -82,3 +82,9 @@ _What I need on my Ubuntu desktop._
 
 		sudo apt install firefox
 		sudo apt remove flashplugin-installer
+
+- nextcloud client
+
+		sudo add-apt-repository ppa:nextcloud-devs/client
+		sudo apt-get update
+		sudo apt install nextcloud-client
