@@ -95,3 +95,7 @@ _What I need on my Ubuntu desktop._
 		sudo add-apt-repository ppa:nextcloud-devs/client
 		sudo apt-get update
 		sudo apt install nextcloud-client
+
+- [boostnote](https://boostnote.io/#download)
+- [skype](https://get.skype.com/getskype-webwrap-deb)
+- [teamviewer](https://www.teamviewer.com/en/download/linux/)
