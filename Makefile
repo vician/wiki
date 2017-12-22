@@ -1,5 +1,5 @@
 PIDFILE="server.pid"
-LISTEN="127.0.0.1:8006"
+LISTEN="127.0.0.1:8101"
 
 start:
 	mkdocs serve --dev-addr=$(LISTEN) 1>/dev/null 2>/dev/null & echo $$! > $(PIDFILE)
