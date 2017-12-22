@@ -1,4 +1,4 @@
-## [Thudnerbird](https://launchpad.net/~mozillateam/+archive/ubuntu/thunderbird-next)
+## [Thunderbird](https://launchpad.net/~mozillateam/+archive/ubuntu/thunderbird-next)
 
 	sudo add-apt-repository ppa:mozillateam/thunderbird-next
 	sudo apt update; sudo apt upgrade
