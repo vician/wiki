@@ -12,4 +12,4 @@
 
 ## Add all hosts to known_hosts
 
-	grep -v "^\[\|^#" hosts | { while read X; do ssh "$X" exit; done }
+	grep -v "^\[\|^#" hosts | xargs -L1 ssh

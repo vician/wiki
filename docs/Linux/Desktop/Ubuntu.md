@@ -99,3 +99,6 @@ _What I need on my Ubuntu desktop._
 - [boostnote](https://boostnote.io/#download)
 - [skype](https://get.skype.com/getskype-webwrap-deb)
 - [teamviewer](https://www.teamviewer.com/en/download/linux/)
+- firewall
+
+		sudo apt install gufw
