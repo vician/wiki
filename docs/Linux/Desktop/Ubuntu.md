@@ -22,7 +22,7 @@ _What I need on my Ubuntu desktop._
 - [keepassxc](https://keepassxc.org/download#linux) and [qtqr](https://launchpad.net/qr-tools) ([bug with lock screen](https://github.com/keepassxreboot/keepassxc/issues/687))
 
 		sudo snap install keepassxc
-		sudo apt install qtqr
+		sudo apt install qtqr qreator
 
 - [spotify](https://www.spotify.com/cz/download/linux/) - testing version
 
@@ -94,7 +94,7 @@ _What I need on my Ubuntu desktop._
 
 		sudo add-apt-repository ppa:nextcloud-devs/client
 		sudo apt-get update
-		sudo apt install nextcloud-client
+		sudo apt install nextcloud-client nextcloud-client-nautilus
 
 - [boostnote](https://boostnote.io/#download)
 - [skype](https://get.skype.com/getskype-webwrap-deb)
