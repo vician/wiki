@@ -14,4 +14,5 @@
 - [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/) - missing systray
 - [Suspend Button](https://extensions.gnome.org/extension/826/suspend-button/) - missing suspend button
 - [System Monitor](https://extensions.gnome.org/extension/120/system-monitor/)
-- [Wokrpsace Indicator](https://extensions.gnome.org/extension/21/workspace-indicator/)
+- [Workpsace Indicator](https://extensions.gnome.org/extension/21/workspace-indicator/)
+- [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
