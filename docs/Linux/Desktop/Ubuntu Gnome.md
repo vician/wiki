@@ -7,7 +7,7 @@
 - go to [user themes extension](https://extensions.gnome.org/extension/19/user-themes/) install browser extension and the extension
 - change the appearence in gnome tweak tool
 
-		sudo apt install pocillo-icon-theme budige-wallpapers
+		sudo apt install pocillo-icon-theme budgie-wallpapers
 
 ## Gnome Shell Extensions
 
