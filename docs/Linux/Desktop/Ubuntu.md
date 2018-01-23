@@ -4,6 +4,10 @@ _What I need on my Ubuntu desktop._
 
 		sudo apt install git mc htop vim git tree whois python3-pip acpi gdebi lm-sensors p7zip-full curl
 
+- set vim default
+
+		sudo update-alternatives --config editor
+
 - See specifics for [Ubuntu Budgie](./Ubuntu Budgie/)
 
 - terminal
