@@ -10,6 +10,22 @@
 		sudo add-apt-repository ppa:graphics-drivers/ppa
 		sudo apt-get update
 
+- configure linux kernel [source](https://charlienewey.github.io/getting-nvidia-drivers-working-on-ubuntu-17-10/)
+- create file `/etc/modprobe.d/blacklist-nouveau.conf`
+
+		blacklist nouveau
+		blacklist lbm-nouveau
+		alias nouveau off
+		alias lbm-nouveau off
+
+- create file `/etc/modprobe.d/nvidia-drm-nomodeset.conf` with content
+
+		options nvidia-drm modeset=1
+
+- update initial ramdisk
+
+		sudo update-initramfs -u
+
 ### Nouveau driver
 
 - Intel Corporation 591b
