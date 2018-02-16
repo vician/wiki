@@ -18,3 +18,4 @@
 - [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [No title bar](https://extensions.gnome.org/extension/1267/no-title-bar/)
+- [Openweather](https://extensions.gnome.org/extension/750/openweather/)
