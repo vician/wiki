@@ -8,7 +8,7 @@ _What I need on my Ubuntu desktop._
 
 		sudo update-alternatives --config editor
 
-- See specifics for [Ubuntu Budgie](./Ubuntu Budgie/)
+- See specifics for [Ubuntu Gnome](./Ubuntu Gnome/)
 
 - terminal
 
@@ -68,7 +68,7 @@ _What I need on my Ubuntu desktop._
 - thunderbird
 	- install with GPG and gnome support
 
-			sudo apt install thunderbird enigmail thunderbird-gnome-support
+			sudo apt install thunderbird enigmail thunderbird-gnome-support xul-ext-lightning
 
 	- check for new message in all folders, go to Preferences -> Advanced -> Config Editor -> _I accept the risk!" -> search `server.default.check_all_folders_for_new` -> double click on the line for change it to `true`
 
