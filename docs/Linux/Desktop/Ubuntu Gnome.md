@@ -19,3 +19,4 @@
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [No title bar](https://extensions.gnome.org/extension/1267/no-title-bar/)
 - [Openweather](https://extensions.gnome.org/extension/750/openweather/)
+- [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
