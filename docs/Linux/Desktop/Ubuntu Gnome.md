@@ -20,3 +20,4 @@
 - [No title bar](https://extensions.gnome.org/extension/1267/no-title-bar/)
 - [Openweather](https://extensions.gnome.org/extension/750/openweather/)
 - [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
+- [Dash to dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
