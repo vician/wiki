@@ -20,3 +20,6 @@
 - [No title bar](https://extensions.gnome.org/extension/1267/no-title-bar/)
 - [Openweather](https://extensions.gnome.org/extension/750/openweather/)
 - [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+	- If the dock is visible on the lock screen [remove the ubuntu dock](https://github.com/micheleg/dash-to-dock/issues/649) like this:
+			sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com ~/
