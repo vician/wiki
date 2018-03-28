@@ -10,10 +10,8 @@
 
 ## Gajim (nightly version)
 
-	sudo apt remove gajim
-	sudo apt autoremove
-	echo "deb ftp://ftp.gajim.org/debian unstable main" | sudo tee /etc/apt/sources.list.d/gajim.list
-	wget -O /tmp/gajim-dev-keyring.deb ftp://ftp.gajim.org/debian/dists/unstable/main/binary-amd64/gajim-dev-keyring_2016.03.29_all.deb
-	sudo dpkg -i /tmp/gajim-dev-keyring.deb
-	sudo apt update
-	sudo apt install gajim-dev
+	sudo apt-get remove gajim
+	wget -q https://gajim.org/gajim.key -O - | apt-key add -
+	sudo sh -c "echo deb ftp://ftp.gajim.org/debian unstable main > /etc/apt/sources.list.d/gajim.list"
+	sudo apt-get update
+	sudo apt-get install gajim-nightly
