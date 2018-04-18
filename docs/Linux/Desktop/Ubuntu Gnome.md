@@ -23,3 +23,4 @@
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 	- If the dock is visible on the lock screen [remove the ubuntu dock](https://github.com/micheleg/dash-to-dock/issues/649) like this:
 			sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com ~/
+- [Media Player Indicator](https://extensions.gnome.org/extension/55/media-player-indicator/)
