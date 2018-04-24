@@ -8,6 +8,10 @@
 	bin/grav install
 	bin/gpm install admin
 
+## Deployment
+
+	wget -O grav-admin.zip https://getgrav.org/download/core/grav-admin/latest
+
 ## Local run
 
 	php -S 127.0.0.1:9051 system/router.php
