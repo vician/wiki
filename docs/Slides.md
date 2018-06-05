@@ -2,7 +2,7 @@
 
 ## 2018
 
-- [IPv6-only v interní infrastruktuře](2018-cesnet-ipv6-only.small.pdf), 6. června [IPv6 seminář, CESNET](https://www.cesnet.cz/akce/ipv6-2018/) , Praha
+- [IPv6-only v interní infrastruktuře](Slides/2018-cesnet-ipv6-only.small.pdf), 6. června [IPv6 seminář, CESNET](https://www.cesnet.cz/akce/ipv6-2018/) , Praha
 - [Linux na desktopu pro Běžně Frustrované Uživatele](Slides/2018-installfest-linuxBFU.small.pdf), 4. března [InstallFest](https://installfest.cz/if18/), Praha
 
 ## 2017
