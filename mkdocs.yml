@@ -1,4 +1,18 @@
 site_name: Martin Vician's wiki
 
-theme: material
-repo_url: 'https://github.com/vician/wiki'
+theme:
+    name: material
+    palette:
+        primary: teal
+        accent: teal
+
+extra:
+    logo: 'favicon.ico'
+    social:
+        - type: 'twitter'
+          link: 'https://twitter.com/ptvician'
+    search:
+        language: 'en, cs'
+
+
+repo_url: 'https://gitlab.com/vician/wiki'
