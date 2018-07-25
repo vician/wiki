@@ -41,6 +41,6 @@
 
 ## Recv all keys I already signed
 
-	gpg --refresh-keys martin.vican@nic.cz
-	gpg --list-sigs martin.vician@nic.cz |grep -v "sig  " | grep "not found" | awk '{print $3}' |  xargs -L1 gpg --recv-keys
-	gpg --list-sigs martin.vician@nic.cz | grep "not found" | awk '{print $2}' | xargs -L1 gpg --recv-keys
+	gpg --refresh-keys me@example.com
+	gpg --list-sigs me@example.com |grep -v "sig  " | grep "not found" | awk '{print $3}' |  xargs -L1 gpg --recv-keys
+	gpg --list-sigs me@example.com | grep "not found" | awk '{print $2}' | xargs -L1 gpg --recv-keys
