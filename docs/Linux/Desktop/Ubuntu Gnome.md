@@ -11,6 +11,7 @@
 
 ## Gnome Shell Extensions
 
+- [user themes extension](https://extensions.gnome.org/extension/19/user-themes/)
 - [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/) - missing systray
 - [Suspend Button](https://extensions.gnome.org/extension/826/suspend-button/) - missing suspend button
 - [System Monitor](https://extensions.gnome.org/extension/120/system-monitor/)
@@ -31,6 +32,6 @@
 	sudo apt install gnome-session
 	sudo apt install plymouth-theme-ubuntu-gnome-logo plymouth-theme-ubuntu-gnome-text
 	sudo apt install gnome-backgrounds
-	sudo update-alternatives --config gdm3.cssa
+	sudo update-alternatives --config gdm3.css
 	sudo update-alternatives --config default.plymouth
 	sudo update-alternatives --config text.plymouth

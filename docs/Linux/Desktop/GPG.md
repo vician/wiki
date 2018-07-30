@@ -41,6 +41,8 @@
 
 ## Recv all keys I already signed
 
+https://gitlab.com/snippets/1738577
+
 	gpg --refresh-keys me@example.com
 	gpg --list-sigs me@example.com |grep -v "sig  " | grep "not found" | awk '{print $3}' |  xargs -L1 gpg --recv-keys
 	gpg --list-sigs me@example.com | grep "not found" | awk '{print $2}' | xargs -L1 gpg --recv-keys
