@@ -6,6 +6,16 @@ theme:
         primary: teal
         accent: teal
 
+extra_javascript:
+- "jquery-3.2.1.min.js"
+- "whichdistro.js"
+- "Chart.bundle.js"
+- "bootstrap.min.js"
+- "bootstrap-slider.min.js"
+extra_css:
+    #- "bootstrap.min.css"
+- "bootstrap-slider.css"
+
 extra:
     logo: 'favicon.ico'
     social:
