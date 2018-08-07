@@ -1,16 +1,22 @@
 image: python:alpine
 
 before_script:
-    - pip install mkdocs
-    - pip install mkdocs-material
+    - apk update
+    - apk add rsync openssh-client
+    - pip install mkdocs mkdocs-material
+    - mkdir -p $HOME/.ssh
+    - chmod 700 $HOME/.ssh
+    - echo "$SSH_HOST ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDDoLhgavd5zWF8C+/BKlM15LNtpaaUkL03b44KYKxJ0DVf54zd6PO4pZxmZYorkNtsVHkOsJbXm2rmVrvdGBMU=" > $HOME/.ssh/known_hosts
+    - chmod 644 $HOME/.ssh/known_hosts
+    - eval $(ssh-agent -s)
+    - echo "$SSH_KEY" | tr -d '\r' | ssh-add - > /dev/null
 
-pages:
+deploy:
     script:
         - mkdocs build
-        - mv site public
+        - rsync -e "ssh" -avz --delete --exclude="\.*" site/* $SSH_USER@$SSH_HOST:$SSH_ROOT/
     artifacts:
         paths:
-            - public
+            - site
     only:
         - master
-
