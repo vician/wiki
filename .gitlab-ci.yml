@@ -6,7 +6,9 @@ before_script:
     - pip install mkdocs mkdocs-material
     - mkdir -p $HOME/.ssh
     - chmod 700 $HOME/.ssh
-    - echo "$SSH_HOST ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDDoLhgavd5zWF8C+/BKlM15LNtpaaUkL03b44KYKxJ0DVf54zd6PO4pZxmZYorkNtsVHkOsJbXm2rmVrvdGBMU=" > $HOME/.ssh/known_hosts
+    - rm -f $HOME/.ssh/known_hosts
+    - echo "$SSH_HOST ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDDoLhgavd5zWF8C+/BKlM15LNtpaaUkL03b44KYKxJ0DVf54zd6PO4pZxmZYorkNtsVHkOsJbXm2rmVrvdGBMU=" >> $HOME/.ssh/known_hosts
+    - ssh-keyscan -t rsa,dsa,ecdsa github.com >> $HOME/.ssh/known_hosts
     - chmod 644 $HOME/.ssh/known_hosts
     - eval $(ssh-agent -s)
     - ssh-add -D
@@ -30,3 +32,19 @@ deploy:
             - site
     only:
         - master
+
+mirror-master:
+    script:
+        - git remote add upstream git@github.com:vician/wiki || true
+        - git fetch upstream
+        - git push --force --progress upstream HEAD:master
+    only:
+        - master
+
+mirror-tags:
+    script:
+        - git remote add upstream git@github.com:vician/wiki || true
+        - git fetch upstream
+        - git push --force --progress --tags upstream HEAD:master
+    only:
+        - tags
