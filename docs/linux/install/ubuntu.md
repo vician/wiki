@@ -1,5 +1,5 @@
 [official instruction](https://help.ubuntu.com/community/VerifyIsoHowto)
-b
+
 ## Get necessary files
 
 Choose your variant of Ubuntu and download iso file (alternatively via torrents).

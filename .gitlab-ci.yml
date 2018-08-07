@@ -13,6 +13,7 @@ before_script:
     - eval $(ssh-agent -s)
     - ssh-add -D
     - echo -en "$SSH_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - ssh-add -l
 
 test:
     script:
