@@ -20,10 +20,14 @@ extra_css:
 extra:
     logo: 'favicon.ico'
     social:
+        - type: 'globe'
+          link: 'https://www.vician.cz'
         - type: 'twitter'
           link: 'https://twitter.com/ptvician'
         - type: 'gitlab'
           link: 'https://gitlab.com/vician'
+        - type: 'github'
+          link: 'https://github.com/vician'
         - type: 'linkedin'
           link: 'https://www.linkedin.com/in/ptvician/'
     search:
