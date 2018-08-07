@@ -2,7 +2,7 @@ image: python:alpine
 
 before_script:
     - apk update
-    - apk add rsync openssh-client
+    - apk add rsync openssh-client git
     - pip install mkdocs mkdocs-material
     - mkdir -p $HOME/.ssh
     - chmod 700 $HOME/.ssh
@@ -19,6 +19,9 @@ test:
 
 deploy:
     script:
+        - sed -i "s/&copy;/\&copy; $(date +%Y)/g" mkdocs.yml
+        - sed -i "s/REF/#$(git log --pretty=format:'%h' -n 1)/g" mkdocs.yml
+        - sed -i "s/HASH/$(git rev-parse HEAD)/g" mkdocs.yml
         - mkdocs build
         - rsync -e "ssh" -avz --delete --exclude="\.*" site/* $SSH_USER@$SSH_HOST:$SSH_ROOT/
     artifacts:

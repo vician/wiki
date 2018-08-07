@@ -20,8 +20,3 @@ clean:
 	mkdocs build --clean
 
 restart: stop clean start
-
-deploy: build
-	ssh vf.vician.cz "sudo chown -R martin:www-data /var/www/wiki.vician.cz/"
-	rsync -avz --delete --exclude="\.*" site/* vf.vician.cz:/var/www/wiki.vician.cz/
-	ssh vf.vician.cz "sudo chown -R www-data:www-data /var/www/wiki.vician.cz/"

@@ -1,4 +1,5 @@
 site_name: Martin Vician's wiki
+site_author: Martin Vician
 
 theme:
     name: material
@@ -21,8 +22,13 @@ extra:
     social:
         - type: 'twitter'
           link: 'https://twitter.com/ptvician'
+        - type: 'gitlab'
+          link: 'https://gitlab.com/vician'
+        - type: 'linkedin'
+          link: 'https://www.linkedin.com/in/ptvician/'
     search:
         language: 'en, cs'
 
-
+repo_name: 'vician/wiki'
 repo_url: 'https://gitlab.com/vician/wiki'
+copyright: "&copy; Martin Vicián <a href='https://gitlab.com/vician/wiki/commit/HASH'>REF</a>"
