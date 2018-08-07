@@ -1,30 +1,32 @@
-[Oficiální návod v angličtině](https://help.ubuntu.com/community/VerifyIsoHowto)
+[official instruction](https://help.ubuntu.com/community/VerifyIsoHowto)
+b
+## Get necessary files
 
-## Získejte potřebné soubory
+Choose your variant of Ubuntu and download iso file (alternatively via torrents).
 
-Z následujícího seznamu si vyberte zvolenou variantu Ubuntu a stáhněte si iso soubor (ev. přes torenty).
 
-| Verze     | Oficiální | Budgie | Xfce | Mate | KDE |
+| Version     | Official | Budgie | Xfce | Mate | KDE |
 | --------- | --------- | ------ | ---- | ---- | --- |
 | 18.04 LTS | [Gnome](http://releases.ubuntu.com/bionic/) | [Budgie](http://cdimage.ubuntu.com/ubuntu-budgie/releases/bionic/release/) | [Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/bionic/release/) | [Mate](http://cdimage.ubuntu.com/ubuntu-mate/releases/bionic/release/) | [Kubuntu](http://cdimage.ubuntu.com/kubuntu/releases/bionic/release/) |
 | 16.04 LTS | [Unity](http://releases.ubuntu.com/xenial/) | [Budgie](http://cdimage.ubuntu.com/ubuntu-budgie/releases/xenial/release/) | [Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/xenial/release/) | [Mate](http://cdimage.ubuntu.com/ubuntu-mate/releases/xenial/release/) | [Kubuntu](http://cdimage.ubuntu.com/kubuntu/releases/xenial/release/) |
 | 14.04 LTS | [Unity](http://releases.ubuntu.com/xenial/) | [Budgie](http://cdimage.ubuntu.com/ubuntu-budgie/releases/xenial/release/) | [Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/xenial/release/) | [Mate](http://cdimage.ubuntu.com/ubuntu-mate/releases/xenial/release/) | [Kubuntu](http://cdimage.ubuntu.com/kubuntu/releases/xenial/release/) |
 
-Navíc stáhněte ze stejného adresáře soubory:
+On top of that get these files from the same directory:
 
 - `SHA256SUMS`
 - `SHA256SUMS.gpg`
 
-Všechny tři stažené soubory mějte umístěné v jednom adresáři.
+All three files put into the same directory.
 
-## Ověřte integritu
+
+## Check the integrity
 
 	sha256sum --ignore-missing -c SHA256SUMS
 
-## Stáhněte si klíče, které měly podepsat kontrolní součet
+## Get the keys for signature verification
 
 	gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 843938DF228D22F7B3742BC0D94AA3F0EFE21092 C5986B4F1257FFA86632CBA746181433FBB75451
 
-## Ověřte podpis souboru s kontrolním součtem
+## Check the signature
 
 	gpg --verify SHA256SUMS.gpg SHA256SUMS
