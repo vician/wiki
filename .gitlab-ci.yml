@@ -11,6 +11,12 @@ before_script:
     - eval $(ssh-agent -s)
     - echo "$SSH_KEY" | tr -d '\r' | ssh-add - > /dev/null
 
+test:
+    script:
+        - mkdocs build
+    except:
+        - master
+
 deploy:
     script:
         - mkdocs build
