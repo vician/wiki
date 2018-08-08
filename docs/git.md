@@ -76,3 +76,8 @@ File: `~/.gitconfig`
 .*~
 ```
 
+## Mirror to another git server
+
+	git remote add upstream git@ANOTHERGITSERVER:PATH
+	git fetch upstream
+	git push --force --tags --progress upstream HEAD:master
