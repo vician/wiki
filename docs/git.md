@@ -67,6 +67,9 @@ File: `~/.gitconfig`
 		textconv = ansible-vault view
 	[core]
 		excludesfile = ~/.gitignore
+	[includeIf "gitdir:~/Documents/work/"]
+		path = ~/Documents/work/.gitconfig
+
 
 ### Global gitignore
 
