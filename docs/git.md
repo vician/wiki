@@ -82,8 +82,11 @@ File: `~/.gitconfig`
 ## Delete tags
 
 - Local
+
 		git push --delete origin TAGNAME
+
 - Remote
+
 		git tag -d TAGNAME
 
 ## Mirror to another git server
