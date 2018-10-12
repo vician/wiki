@@ -1,4 +1,1 @@
-site/
-server.pid
-.*.swp
-.*.swo
+mkdocs/.gitignore

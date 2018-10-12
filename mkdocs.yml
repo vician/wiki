@@ -30,6 +30,8 @@ extra:
           link: 'https://github.com/vician'
         - type: 'linkedin'
           link: 'https://www.linkedin.com/in/ptvician/'
+        - type: 'lock' #keybase not included in current font-awesome
+          link: 'https://keybase.io/vician'
     search:
         language: 'en, cs'
 

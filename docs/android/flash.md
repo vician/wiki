@@ -1,8 +1,8 @@
 ## Flash
 
-- Install requirements on Arch Linux
+- Install requirements
 
-		sudo pacman -S android-tools
+		sudo apt install fastboot
 
 - Download appropriate image
 - Use relevant key combination and boot to fastboot
