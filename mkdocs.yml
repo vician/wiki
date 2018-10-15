@@ -7,6 +7,9 @@ theme:
         primary: teal
         accent: teal
 
+markdown_extensions:
+- footnotes
+
 extra_javascript:
 - "jquery-3.2.1.min.js"
 - "whichdistro.js"
