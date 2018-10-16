@@ -36,7 +36,7 @@ extra:
         - type: 'lock' #keybase not included in current font-awesome
           link: 'https://keybase.io/vician'
     search:
-        language: 'en, cs'
+        language: 'en'
 
 repo_name: 'vician/wiki'
 repo_url: 'https://gitlab.com/vician/wiki'
