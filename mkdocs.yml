@@ -6,6 +6,8 @@ theme:
     palette:
         primary: teal
         accent: teal
+    favicon: 'favicon.ico'
+    logo: 'favicon.ico'
 
 markdown_extensions:
 - footnotes
@@ -21,7 +23,6 @@ extra_css:
 - "bootstrap-slider.css"
 
 extra:
-    logo: 'favicon.ico'
     social:
         - type: 'globe'
           link: 'https://www.vician.cz'
