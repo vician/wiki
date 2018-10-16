@@ -43,4 +43,9 @@ repo_name: 'vician/wiki'
 repo_url: 'https://gitlab.com/vician/wiki'
 edit_uri: ''
 
+google_analytics:
+    - 'UA-73656343-10'
+    - 'auto'
+
+
 copyright: "&copy; Martin Vicián <a href='https://gitlab.com/vician/wiki/commit/HASH'>REF</a>"
