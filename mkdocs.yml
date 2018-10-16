@@ -40,4 +40,6 @@ extra:
 
 repo_name: 'vician/wiki'
 repo_url: 'https://gitlab.com/vician/wiki'
+edit_uri: ''
+
 copyright: "&copy; Martin Vicián <a href='https://gitlab.com/vician/wiki/commit/HASH'>REF</a>"
