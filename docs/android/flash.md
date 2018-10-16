@@ -1,5 +1,3 @@
-## Flash
-
 - Install requirements
 
 		sudo apt install fastboot
