@@ -1,9 +1,31 @@
 ## Flash firmware
 
+### BigClown Flashing tool
+
+<https://www.bigclown.com/doc/tools/bcf/>
+
+- Install
+
+		sudo pip3 install --upgrade --no-cache-dir bcf
+
+- Get list of connected devices
+
+		bcf devices
+
+- Flash gateway
+
+		sudo bcf flash --device /dev/ttyACM0 bigclownlabs/bcf-gateway-core-module:latest
+
+- Flash battery
+
+		sudo bcf flash --device /dev/ttyACM0 bigclownlabs/bcf-generic-node-battery-standard:latest
+
+### Manual flash
+
 - Get the firmware
-	- base usb gateway: https://github.com/bigclownlabs/bcf-gateway/releases (file: firmware.bin)
-	- remote sensor: https://github.com/bigclownlabs/bcf-generic-node/releases (file depends on your purpose)
-- Install dfu-util (Ubuntu)
+	- gateway core module: <https://github.com/bigclownlabs/bcf-gateway/releases> (file e.g.: `bcf-gateway-core-module-v?.?.?.bin`)
+	- remote sensor: <https://github.com/bigclownlabs/bcf-generic-node/releases> (file e.g.: `bcf-generic-node-battery-standard-v?.?.?.bin`)
+- Install `dfu-util` (Ubuntu)
 
 		sudo apt install dfu-util
 
