@@ -9,11 +9,11 @@
 
 1. Create Python virtual environment (use command `python3` on Debian/Ubuntu) named `env`:
 
-		python -m virtualenv env
+		python -m virtualenv pyenv
 
 1. Enable created environment `env` (you need to do it everytime you are in new bash and want to use the environment):
 
-		source env/bin/activate
+		source pyenv/bin/activate
 
 1. Update pip:
 
