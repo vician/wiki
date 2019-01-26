@@ -1,13 +1,38 @@
-	sudo apt install gnome-tweak-tool
+## Gnome Tweak Tool
+
+Install package `gnome-tweak-tool`:
+- Ubuntu:
+
+		sudo apt install gnome-tweak-tool
+
+- Fedora:
+
+		sudo dnf install gnome-tweak-tool
 
 ## Theme
 
-	sudo apt install arc-theme chrome-gnome-shell
+- Install gnome-extension support:
+	- Ubuntu:
 
-- go to [user themes extension](https://extensions.gnome.org/extension/19/user-themes/) install browser extension and the extension
+			sudo apt install chrome-gnome-shell
+
+	- Fedora:
+
+			sudo dnf install chrome-gnome-shell
+
+- Go to [user themes extension](https://extensions.gnome.org/extension/19/user-themes/) install required browser extension and the extension itself
+
+### Arc theme and Papirus icon theme
+
+- Ubuntu:
+
+		sudo apt install arc-theme papirus-icon-theme
+
+- Fedora:
+
+		sudo dnf install arc-theme papirus-icon-theme
+
 - change the appearence in gnome tweak tool
-
-		sudo apt install pocillo-icon-theme budgie-wallpapers
 
 ## Gnome Shell Extensions
 
@@ -15,8 +40,6 @@
 - [Battery Status](https://extensions.gnome.org/extension/817/battery-status/)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-	- If the dock is visible on the lock screen [remove the ubuntu dock](https://github.com/micheleg/dash-to-dock/issues/649) like this:
-			sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com ~/
 - [Media Player Indicator](https://extensions.gnome.org/extension/55/media-player-indicator/)
 - [Notification Counter](https://extensions.gnome.org/extension/1386/notification-counter/)
 - [Openweather](https://extensions.gnome.org/extension/750/openweather/)
@@ -26,13 +49,3 @@
 - [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/) - missing systray
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Workpsace Indicator](https://extensions.gnome.org/extension/21/workspace-indicator/)
-
-
-## Ubuntu as Gnome
-
-	sudo apt install gnome-session
-	sudo apt install plymouth-theme-ubuntu-gnome-logo plymouth-theme-ubuntu-gnome-text
-	sudo apt install gnome-backgrounds
-	sudo update-alternatives --config gdm3.css
-	sudo update-alternatives --config default.plymouth
-	sudo update-alternatives --config text.plymouth
