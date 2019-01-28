@@ -28,7 +28,7 @@
 		"xte 'key XF86AudioLowerVolume'"
 			b:7
 
-- Create file for autostart `~/.config/autostart/xbindkeys.dekstop`:
+- Create file for autostart `~/.config/autostart/xbindkeys.desktop`:
 
 		[Desktop Entry]
 		Type=Application
@@ -42,5 +42,5 @@
 It raise `CTRL+ALT+TAB`. So it's more complicated. But you can configure it as a PlayPause button.
 
 1. Go to _Settings -> Devices -> Keyboard_
-2. Change the old function for `CTRL+ALT+TAB` - it's _Switch system controls_ by default, I changed it to `SHIFT+CTRL+TAB` ![](mxmaster-old.png)
+2. Change the old function for `CTRL+ALT+TAB` - it's _Switch system controls_ by default, I changed it to something which you don't use, e.g.: `ALT+=` ![](mxmaster-old.png)
 3. Crete a new shortcut - you can press the thumb button to catch it exactly. I configure it for `xte 'key XF86AudioPlay'` to play or pause my music. ![](mxmaster-new.png)
