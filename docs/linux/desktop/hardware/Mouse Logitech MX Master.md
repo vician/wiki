@@ -1,4 +1,4 @@
-- https://wiki.archlinux.org/index.php/Logitech_MX_Master
+- [Arch Linux Wiki](https://wiki.archlinux.org/index.php/Logitech_MX_Master)
 
 | Physical action              | detected as           |
 |------------------------------|-----------------------|
