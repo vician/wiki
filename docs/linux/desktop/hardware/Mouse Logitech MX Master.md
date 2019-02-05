@@ -27,7 +27,7 @@
 		Exec=xbindkeys
 		Icon=xbindkeys
 
-### Control Volume
+### Volume Control
 Create file `~/.xbindkeysrc` with content:
 
 	# thumb wheel up => increase volume
@@ -37,6 +37,10 @@ Create file `~/.xbindkeysrc` with content:
 	# thumb wheel down => lower volume
 	"xte 'key XF86AudioLowerVolume'"
 		b:7
+
+## Disable Touchpad Horizontal Scrolling
+
+<https://unix.stackexchange.com/questions/390692/how-to-disable-trackpad-horizontal-scrolling/390714>
 
 ### Switch between tabs
 Create file `~/.xbindkeysrc` with content:
