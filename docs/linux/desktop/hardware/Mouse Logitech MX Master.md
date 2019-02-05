@@ -18,16 +18,6 @@
 ## Thumb wheel
 
 - Install `xbindkey` and `xautomation`.
-- Create file `~/.xbindkeysrc`
-
-		# thumb wheel up => increase volume
-		"xte 'key XF86AudioRaiseVolume'"
-			b:6
-
-		# thumb wheel down => lower volume
-		"xte 'key XF86AudioLowerVolume'"
-			b:7
-
 - Create file for autostart `~/.config/autostart/xbindkeys.desktop`:
 
 		[Desktop Entry]
@@ -36,6 +26,28 @@
 		TryExec=xbindkeys
 		Exec=xbindkeys
 		Icon=xbindkeys
+
+### Control Volume
+Create file `~/.xbindkeysrc` with content:
+
+	# thumb wheel up => increase volume
+	"xte 'key XF86AudioRaiseVolume'"
+		b:6
+
+	# thumb wheel down => lower volume
+	"xte 'key XF86AudioLowerVolume'"
+		b:7
+
+### Switch between tabs
+Create file `~/.xbindkeysrc` with content:
+
+	# thumb wheel up => prev tab
+	"xte 'keydown Control_L' 'key Page_Up' 'keyup Control_L'"
+		b:6
+
+	# thumb wheel down => next tab
+	"xte 'keydown Control_L' 'key Page_Down' 'keyup Control_L'"
+		b:7
 
 ## Thumb button
 
