@@ -6,8 +6,8 @@ theme:
     palette:
         primary: teal
         accent: teal
-    favicon: 'favicon.ico'
-    logo: 'favicon.ico'
+    favicon: 'icon.png'
+    logo: 'icon.png'
 
 markdown_extensions:
 - footnotes
