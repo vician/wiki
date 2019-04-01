@@ -6,3 +6,6 @@
 ## Wiki building status
 
 ![](https://gitlab.com/vician/wiki/badges/master/build.svg)
+
+## Changelog
+
